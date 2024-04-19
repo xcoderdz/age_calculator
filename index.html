@@ -14,11 +14,11 @@
     <form>
     <div>
       <label for="nowDay">Today's Date</label>
-      <input type="date" id="nowDate" value="Date()">
+      <input type="date" id="nowDate" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
     </div><br>
     <div>
       <label for="Birth">Date of Birth</label>
-      <input type="date" id="birthDate" placeholder="Select date" required autofocus="">
+      <input type="date" id="birthDate" placeholder="Select date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}>
     </div><br>
     <button type="button" id="btclc" onclick="calc_Age()">Calculate</button>
     <br>
