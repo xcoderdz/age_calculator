@@ -33,11 +33,13 @@ function calc_Age(){
   
   //console.log(year, month, day);
   if(dateNow.value == "" || birthDate.value == ""){
-    //!
+    
+  //
+  
   }else{
-    yy.innerHTML = year;
-    mm.innerHTML = month;
-    dd.innerHTML = day;
+  yy.innerHTML = year;
+  mm.innerHTML = month;
+  dd.innerHTML = day;
     }
 }
 
