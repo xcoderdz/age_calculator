@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <header><h1>Age Calculator</h1></header>
+  <div class="continer">
+    <br>
+    <form>
+    <div>
+      <label for="nowDay">Today's Date</label>
+      <input type="date" id="nowDate" value="Date()">
+    </div><br>
+    <div>
+      <label for="Birth">Date of Birth</label>
+      <input type="date" id="birthDate" placeholder="Select date" required autofocus="">
+    </div><br>
+    <button type="button" id="btclc" onclick="calc_Age()">Calculate</button>
+    <br>
+    <label>Your Age!</label>
+    <br>
+    <div class="result">
+      <div class="sp">
+        <span>Year</span>
+        <span>Month</span>
+        <span>Days</span>
+      </div>
+      <div class="pr">
+        <p id="yy">00</p>
+        <p id="mm">00</p>
+        <p id="dd">00</p>
+      </div>
+    </div>
+    </form>
+  </div>
+  <footer><h3 id="fot">by xcoderdz 2024</h3></footer>
+  <script src="script.js"></script>
+</body>
+</html>
