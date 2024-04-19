@@ -32,14 +32,12 @@ function calc_Age(){
   }
   
   //console.log(year, month, day);
-  if(birthDate.value != "" || dateNow.value != ""){
-    
-  yy.innerHTML = year;
-  mm.innerHTML = month;
-  dd.innerHTML = day;
-  
+  if(dateNow.value == "" || birthDate.value == ""){
+    //!
   }else{
-  //!
+    yy.innerHTML = year;
+    mm.innerHTML = month;
+    dd.innerHTML = day;
     }
 }
 
