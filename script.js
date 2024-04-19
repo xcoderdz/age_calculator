@@ -32,7 +32,7 @@ function calc_Age(){
   }
   
   //console.log(year, month, day);
-  if(birthDate.value != ""){
+  if(birthDate.value != "" && dateNow.value != ""){
     
   yy.innerHTML = year;
   mm.innerHTML = month;
